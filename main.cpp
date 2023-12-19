@@ -208,7 +208,7 @@ void tests(){
 
     vector<pair<string, int> > result = get_tested_graphs("config.ini");
     int number_of_tests = 5;
-
+    
     // Factor
 
     cout << "Testowanie wplywu factor na wyniki" << endl;
@@ -242,6 +242,7 @@ void tests(){
         file.close();
     }
     
+
 
     
     // Max epoch
@@ -374,6 +375,7 @@ void tests(){
     }
     file.close();
     }
+    
 
     
 

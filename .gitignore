@@ -2,3 +2,4 @@ a.out
 .vscode/
 venv
 results/*/*.txt
+.DS_Store
